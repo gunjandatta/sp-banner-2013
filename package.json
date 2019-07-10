@@ -1,0 +1,32 @@
+{
+  "name": "sp-banner-2013",
+  "version": "1.0.0",
+  "description": "Displays a banner on SharePoint 2013/Online (Classic) pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sp-banner-2013.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sp-banner-2013/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sp-banner-2013#readme",
+  "dependencies": {
+    "gd-sprest-bs": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
