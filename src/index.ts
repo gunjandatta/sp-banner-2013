@@ -5,7 +5,6 @@ import { Message } from "./message";
 
 /**
  * SharePoint Banner
- * Displays a banner on top of the page.
  */
 const SPBanner = (el: HTMLElement) => {
     // Ensure the element exists
@@ -31,7 +30,7 @@ const SPBanner = (el: HTMLElement) => {
     }
 }
 
-// Set the confirmation
+// Set the configuration
 SPBanner["Configuration"] = Configuration;
 
 // Create the global variable
